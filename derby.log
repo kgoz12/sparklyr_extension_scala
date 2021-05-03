@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Mon May 03 13:33:58 EDT 2021:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0179-334b-3af5-00000e6c0920 
-on database directory memory:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/databaseName=metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@7ceaed80 
+Mon May 03 13:43:34 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0179-3354-0181-00000cd6e010 
+on database directory memory:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/databaseName=metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@2515f225 
 Loaded from file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/jars/derby-10.12.1.1.jar
 java.vendor=AdoptOpenJDK
 java.runtime.version=1.8.0_242-b08
