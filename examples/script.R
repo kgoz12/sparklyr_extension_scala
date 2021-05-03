@@ -1,11 +1,11 @@
 
 # sparklyr::spark_install(version = "3.0.1")
 
-remotes::install_github("kgoz12/sparklyr_extension_scala")
+remotes::install_github("kgoz12/sparklyr_extension_scala", force = T)
 
 pacman::p_load("dplyr",
                "sparklyr",
-               "sparklyr.nested", force=TRUE)
+               "sparklyr.nested")
 
 library(sparklyrExtensionScala)
 
