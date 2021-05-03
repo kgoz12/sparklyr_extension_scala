@@ -5,7 +5,7 @@ remotes::install_github("kgoz12/sparklyr_extension_scala")
 
 pacman::p_load("dplyr",
                "sparklyr",
-               "sparklyr.nested")
+               "sparklyr.nested", force=TRUE)
 
 library(sparklyrExtensionScala)
 
