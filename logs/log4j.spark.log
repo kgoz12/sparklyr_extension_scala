@@ -1133,3 +1133,382 @@
 21/05/03 13:43:37 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
 21/05/03 13:43:37 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
 21/05/03 13:43:37 INFO DAGScheduler: Job 1 finished: count at utils.scala:135, took 0.016170 s
+21/05/03 13:45:27 INFO SparkContext: Invoking stop() from shutdown hook
+21/05/03 13:45:27 INFO SparkUI: Stopped Spark web UI at http://localhost:4040
+21/05/03 13:45:27 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/05/03 13:45:27 INFO MemoryStore: MemoryStore cleared
+21/05/03 13:45:27 INFO BlockManager: BlockManager stopped
+21/05/03 13:45:27 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/05/03 13:45:27 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/05/03 13:45:27 INFO SparkContext: Successfully stopped SparkContext
+21/05/03 13:45:27 INFO ShutdownHookManager: Shutdown hook called
+21/05/03 13:45:27 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-018d33a4-d108-41f1-bd7b-cce153ec1185
+21/05/03 13:45:27 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-213e08ad-d562-4267-8b73-2e7712aa9b15
+21/05/03 13:46:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/05/03 13:46:05 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/03 13:46:05 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/03 13:46:05 INFO SecurityManager: Changing view acls groups to: 
+21/05/03 13:46:05 INFO SecurityManager: Changing modify acls groups to: 
+21/05/03 13:46:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/03 13:46:06 INFO HiveConf: Found configuration file file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 13:46:06 INFO SparkContext: Running Spark version 3.0.1
+21/05/03 13:46:06 INFO ResourceUtils: ==============================================================
+21/05/03 13:46:06 INFO ResourceUtils: Resources for spark.driver:
+
+21/05/03 13:46:06 INFO ResourceUtils: ==============================================================
+21/05/03 13:46:06 INFO SparkContext: Submitted application: sparklyr
+21/05/03 13:46:06 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/03 13:46:06 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/03 13:46:06 INFO SecurityManager: Changing view acls groups to: 
+21/05/03 13:46:06 INFO SecurityManager: Changing modify acls groups to: 
+21/05/03 13:46:06 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/03 13:46:06 INFO Utils: Successfully started service 'sparkDriver' on port 56398.
+21/05/03 13:46:06 INFO SparkEnv: Registering MapOutputTracker
+21/05/03 13:46:06 INFO SparkEnv: Registering BlockManagerMaster
+21/05/03 13:46:06 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/05/03 13:46:06 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/05/03 13:46:06 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+21/05/03 13:46:06 INFO DiskBlockManager: Created local directory at /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/blockmgr-3968707b-0b45-4e32-888e-d8e54f1ce28a
+21/05/03 13:46:06 INFO MemoryStore: MemoryStore started with capacity 912.3 MiB
+21/05/03 13:46:06 INFO SparkEnv: Registering OutputCommitCoordinator
+21/05/03 13:46:07 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+21/05/03 13:46:07 INFO SparkUI: Bound SparkUI to 127.0.0.1, and started at http://localhost:4040
+21/05/03 13:46:07 INFO SparkContext: Added JAR file:/Library/Frameworks/R.framework/Versions/4.0/Resources/library/sparklyr/java/sparklyr-3.0-2.12.jar at spark://localhost:56398/jars/sparklyr-3.0-2.12.jar with timestamp 1620063967230
+21/05/03 13:46:07 INFO Executor: Starting executor ID driver on host localhost
+21/05/03 13:46:07 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 56399.
+21/05/03 13:46:07 INFO NettyBlockTransferService: Server created on localhost:56399
+21/05/03 13:46:07 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/05/03 13:46:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 56399, None)
+21/05/03 13:46:07 INFO BlockManagerMasterEndpoint: Registering block manager localhost:56399 with 912.3 MiB RAM, BlockManagerId(driver, localhost, 56399, None)
+21/05/03 13:46:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 56399, None)
+21/05/03 13:46:07 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, localhost, 56399, None)
+21/05/03 13:46:07 INFO SharedState: loading hive config file: file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 13:46:07 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse').
+21/05/03 13:46:07 INFO SharedState: Warehouse path is 'file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse'.
+21/05/03 13:46:09 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.7 using Spark classes.
+21/05/03 13:46:10 INFO HiveConf: Found configuration file file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 13:46:10 INFO SessionState: Created HDFS directory: /tmp/hive/katherinegoznikar/141cc042-cffc-4fee-8cbb-399120c61c8e
+21/05/03 13:46:10 INFO SessionState: Created local directory: /var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/katherinegoznikar/141cc042-cffc-4fee-8cbb-399120c61c8e
+21/05/03 13:46:10 INFO SessionState: Created HDFS directory: /tmp/hive/katherinegoznikar/141cc042-cffc-4fee-8cbb-399120c61c8e/_tmp_space.db
+21/05/03 13:46:10 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.7) is file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse
+21/05/03 13:46:10 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+21/05/03 13:46:10 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+21/05/03 13:46:10 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+21/05/03 13:46:10 INFO ObjectStore: ObjectStore, initialize called
+21/05/03 13:46:10 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+21/05/03 13:46:10 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+21/05/03 13:46:11 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+21/05/03 13:46:13 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+21/05/03 13:46:13 INFO ObjectStore: Initialized ObjectStore
+21/05/03 13:46:13 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+21/05/03 13:46:13 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore katherinegoznikar@192.168.0.8
+21/05/03 13:46:13 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+21/05/03 13:46:13 INFO HiveMetaStore: Added admin role in metastore
+21/05/03 13:46:13 INFO HiveMetaStore: Added public role in metastore
+21/05/03 13:46:13 INFO HiveMetaStore: No user is added in admin role, since config is empty
+21/05/03 13:46:13 INFO HiveMetaStore: 0: get_all_functions
+21/05/03 13:46:13 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_all_functions	
+21/05/03 13:46:13 INFO HiveMetaStore: 0: get_database: default
+21/05/03 13:46:13 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 13:46:13 INFO HiveMetaStore: 0: get_database: global_temp
+21/05/03 13:46:13 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: global_temp	
+21/05/03 13:46:13 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+21/05/03 13:46:13 INFO HiveMetaStore: 0: get_database: default
+21/05/03 13:46:13 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 13:46:13 INFO HiveMetaStore: 0: get_database: default
+21/05/03 13:46:13 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 13:46:13 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+21/05/03 13:46:13 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+21/05/03 13:46:14 INFO CodeGenerator: Code generated in 162.583159 ms
+21/05/03 13:46:14 INFO CodeGenerator: Code generated in 11.178219 ms
+21/05/03 13:46:14 INFO SparkContext: Starting job: count at utils.scala:135
+21/05/03 13:46:14 INFO DAGScheduler: Registering RDD 2 (count at utils.scala:135) as input to shuffle 0
+21/05/03 13:46:14 INFO DAGScheduler: Got job 0 (count at utils.scala:135) with 1 output partitions
+21/05/03 13:46:14 INFO DAGScheduler: Final stage: ResultStage 1 (count at utils.scala:135)
+21/05/03 13:46:14 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+21/05/03 13:46:14 INFO DAGScheduler: Missing parents: List()
+21/05/03 13:46:14 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:135), which has no missing parents
+21/05/03 13:46:14 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 10.1 KiB, free 912.3 MiB)
+21/05/03 13:46:14 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 912.3 MiB)
+21/05/03 13:46:14 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:56399 (size: 5.0 KiB, free: 912.3 MiB)
+21/05/03 13:46:14 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1223
+21/05/03 13:46:14 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:135) (first 15 tasks are for partitions Vector(0))
+21/05/03 13:46:14 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+21/05/03 13:46:14 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7325 bytes)
+21/05/03 13:46:14 INFO Executor: Running task 0.0 in stage 1.0 (TID 0)
+21/05/03 13:46:14 INFO Executor: Fetching spark://localhost:56398/jars/sparklyr-3.0-2.12.jar with timestamp 1620063967230
+21/05/03 13:46:14 INFO TransportClientFactory: Successfully created connection to localhost/127.0.0.1:56398 after 15 ms (0 ms spent in bootstraps)
+21/05/03 13:46:14 INFO Utils: Fetching spark://localhost:56398/jars/sparklyr-3.0-2.12.jar to /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-e7b8b992-aa09-4d59-8a3f-d1baa68ee9cc/userFiles-fc3b488f-a74b-4907-9a5e-b58a9e22427b/fetchFileTemp4799408877759184395.tmp
+21/05/03 13:46:14 INFO Executor: Adding file:/private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-e7b8b992-aa09-4d59-8a3f-d1baa68ee9cc/userFiles-fc3b488f-a74b-4907-9a5e-b58a9e22427b/sparklyr-3.0-2.12.jar to class loader
+21/05/03 13:46:14 INFO ShuffleBlockFetcherIterator: Getting 0 (0.0 B) non-empty blocks including 0 (0.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+21/05/03 13:46:14 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+21/05/03 13:46:14 INFO Executor: Finished task 0.0 in stage 1.0 (TID 0). 2641 bytes result sent to driver
+21/05/03 13:46:14 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 0) in 278 ms on localhost (executor driver) (1/1)
+21/05/03 13:46:14 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+21/05/03 13:46:14 INFO DAGScheduler: ResultStage 1 (count at utils.scala:135) finished in 0.534 s
+21/05/03 13:46:14 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+21/05/03 13:46:14 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+21/05/03 13:46:14 INFO DAGScheduler: Job 0 finished: count at utils.scala:135, took 0.570681 s
+21/05/03 13:46:14 INFO HiveMetaStore: 0: get_database: default
+21/05/03 13:46:14 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 13:46:14 INFO HiveMetaStore: 0: get_database: default
+21/05/03 13:46:14 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 13:46:14 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+21/05/03 13:46:14 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+21/05/03 13:46:15 INFO SparkContext: Starting job: count at utils.scala:135
+21/05/03 13:46:15 INFO DAGScheduler: Registering RDD 8 (count at utils.scala:135) as input to shuffle 1
+21/05/03 13:46:15 INFO DAGScheduler: Got job 1 (count at utils.scala:135) with 1 output partitions
+21/05/03 13:46:15 INFO DAGScheduler: Final stage: ResultStage 3 (count at utils.scala:135)
+21/05/03 13:46:15 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 2)
+21/05/03 13:46:15 INFO DAGScheduler: Missing parents: List()
+21/05/03 13:46:15 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[11] at count at utils.scala:135), which has no missing parents
+21/05/03 13:46:15 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 10.1 KiB, free 912.3 MiB)
+21/05/03 13:46:15 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 912.3 MiB)
+21/05/03 13:46:15 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on localhost:56399 (size: 5.0 KiB, free: 912.3 MiB)
+21/05/03 13:46:15 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1223
+21/05/03 13:46:15 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[11] at count at utils.scala:135) (first 15 tasks are for partitions Vector(0))
+21/05/03 13:46:15 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks
+21/05/03 13:46:15 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 1, localhost, executor driver, partition 0, PROCESS_LOCAL, 7325 bytes)
+21/05/03 13:46:15 INFO Executor: Running task 0.0 in stage 3.0 (TID 1)
+21/05/03 13:46:15 INFO ShuffleBlockFetcherIterator: Getting 0 (0.0 B) non-empty blocks including 0 (0.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+21/05/03 13:46:15 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+21/05/03 13:46:15 INFO Executor: Finished task 0.0 in stage 3.0 (TID 1). 2641 bytes result sent to driver
+21/05/03 13:46:15 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 1) in 7 ms on localhost (executor driver) (1/1)
+21/05/03 13:46:15 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+21/05/03 13:46:15 INFO DAGScheduler: ResultStage 3 (count at utils.scala:135) finished in 0.013 s
+21/05/03 13:46:15 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+21/05/03 13:46:15 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+21/05/03 13:46:15 INFO DAGScheduler: Job 1 finished: count at utils.scala:135, took 0.016118 s
+21/05/03 14:00:17 INFO SparkContext: Invoking stop() from shutdown hook
+21/05/03 14:00:17 INFO SparkUI: Stopped Spark web UI at http://localhost:4040
+21/05/03 14:00:17 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/05/03 14:00:17 INFO MemoryStore: MemoryStore cleared
+21/05/03 14:00:17 INFO BlockManager: BlockManager stopped
+21/05/03 14:00:17 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/05/03 14:00:17 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/05/03 14:00:17 INFO SparkContext: Successfully stopped SparkContext
+21/05/03 14:00:17 INFO ShutdownHookManager: Shutdown hook called
+21/05/03 14:00:17 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-5f9726e4-cb4a-4440-a1e4-a86732243997
+21/05/03 14:00:17 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-e7b8b992-aa09-4d59-8a3f-d1baa68ee9cc
+21/05/03 14:01:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/05/03 14:01:50 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/03 14:01:50 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/03 14:01:50 INFO SecurityManager: Changing view acls groups to: 
+21/05/03 14:01:50 INFO SecurityManager: Changing modify acls groups to: 
+21/05/03 14:01:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/03 14:01:50 INFO HiveConf: Found configuration file file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 14:01:50 INFO SparkContext: Running Spark version 3.0.1
+21/05/03 14:01:50 INFO ResourceUtils: ==============================================================
+21/05/03 14:01:50 INFO ResourceUtils: Resources for spark.driver:
+
+21/05/03 14:01:50 INFO ResourceUtils: ==============================================================
+21/05/03 14:01:50 INFO SparkContext: Submitted application: sparklyr
+21/05/03 14:01:50 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/03 14:01:50 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/03 14:01:50 INFO SecurityManager: Changing view acls groups to: 
+21/05/03 14:01:50 INFO SecurityManager: Changing modify acls groups to: 
+21/05/03 14:01:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/03 14:01:51 INFO Utils: Successfully started service 'sparkDriver' on port 57130.
+21/05/03 14:01:51 INFO SparkEnv: Registering MapOutputTracker
+21/05/03 14:01:51 INFO SparkEnv: Registering BlockManagerMaster
+21/05/03 14:01:51 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/05/03 14:01:51 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/05/03 14:01:51 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+21/05/03 14:01:51 INFO DiskBlockManager: Created local directory at /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/blockmgr-ee4b3ad4-f7be-4fac-ab96-34ba376ac24c
+21/05/03 14:01:51 INFO MemoryStore: MemoryStore started with capacity 912.3 MiB
+21/05/03 14:01:51 INFO SparkEnv: Registering OutputCommitCoordinator
+21/05/03 14:01:51 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+21/05/03 14:01:51 INFO SparkUI: Bound SparkUI to 127.0.0.1, and started at http://localhost:4040
+21/05/03 14:01:51 INFO SparkContext: Added JAR file:/Library/Frameworks/R.framework/Versions/4.0/Resources/library/sparklyr/java/sparklyr-3.0-2.12.jar at spark://localhost:57130/jars/sparklyr-3.0-2.12.jar with timestamp 1620064911401
+21/05/03 14:01:51 INFO Executor: Starting executor ID driver on host localhost
+21/05/03 14:01:51 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 57131.
+21/05/03 14:01:51 INFO NettyBlockTransferService: Server created on localhost:57131
+21/05/03 14:01:51 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/05/03 14:01:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 57131, None)
+21/05/03 14:01:51 INFO BlockManagerMasterEndpoint: Registering block manager localhost:57131 with 912.3 MiB RAM, BlockManagerId(driver, localhost, 57131, None)
+21/05/03 14:01:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 57131, None)
+21/05/03 14:01:51 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, localhost, 57131, None)
+21/05/03 14:01:51 INFO SharedState: loading hive config file: file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 14:01:51 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse').
+21/05/03 14:01:51 INFO SharedState: Warehouse path is 'file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse'.
+21/05/03 14:01:54 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.7 using Spark classes.
+21/05/03 14:01:54 INFO HiveConf: Found configuration file file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 14:01:54 INFO SessionState: Created HDFS directory: /tmp/hive/katherinegoznikar/d80ac86a-e4e3-4546-bdb8-a5d5ad737ac2
+21/05/03 14:01:54 INFO SessionState: Created local directory: /var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/katherinegoznikar/d80ac86a-e4e3-4546-bdb8-a5d5ad737ac2
+21/05/03 14:01:54 INFO SessionState: Created HDFS directory: /tmp/hive/katherinegoznikar/d80ac86a-e4e3-4546-bdb8-a5d5ad737ac2/_tmp_space.db
+21/05/03 14:01:54 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.7) is file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse
+21/05/03 14:01:54 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+21/05/03 14:01:54 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+21/05/03 14:01:54 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+21/05/03 14:01:55 INFO ObjectStore: ObjectStore, initialize called
+21/05/03 14:01:55 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+21/05/03 14:01:55 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+21/05/03 14:01:56 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+21/05/03 14:01:57 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+21/05/03 14:01:57 INFO ObjectStore: Initialized ObjectStore
+21/05/03 14:01:57 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+21/05/03 14:01:57 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore katherinegoznikar@127.0.0.1
+21/05/03 14:01:57 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+21/05/03 14:01:57 INFO HiveMetaStore: Added admin role in metastore
+21/05/03 14:01:57 INFO HiveMetaStore: Added public role in metastore
+21/05/03 14:01:57 INFO HiveMetaStore: No user is added in admin role, since config is empty
+21/05/03 14:01:57 INFO HiveMetaStore: 0: get_all_functions
+21/05/03 14:01:57 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_all_functions	
+21/05/03 14:01:57 INFO HiveMetaStore: 0: get_database: default
+21/05/03 14:01:57 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 14:01:57 INFO HiveMetaStore: 0: get_database: global_temp
+21/05/03 14:01:57 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: global_temp	
+21/05/03 14:01:57 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+21/05/03 14:01:57 INFO HiveMetaStore: 0: get_database: default
+21/05/03 14:01:57 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 14:01:57 INFO HiveMetaStore: 0: get_database: default
+21/05/03 14:01:57 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 14:01:57 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+21/05/03 14:01:57 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+21/05/03 14:01:58 INFO CodeGenerator: Code generated in 163.802312 ms
+21/05/03 14:01:58 INFO CodeGenerator: Code generated in 11.051084 ms
+21/05/03 14:01:58 INFO SparkContext: Starting job: count at utils.scala:135
+21/05/03 14:01:58 INFO DAGScheduler: Registering RDD 2 (count at utils.scala:135) as input to shuffle 0
+21/05/03 14:01:58 INFO DAGScheduler: Got job 0 (count at utils.scala:135) with 1 output partitions
+21/05/03 14:01:58 INFO DAGScheduler: Final stage: ResultStage 1 (count at utils.scala:135)
+21/05/03 14:01:58 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+21/05/03 14:01:58 INFO DAGScheduler: Missing parents: List()
+21/05/03 14:01:58 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:135), which has no missing parents
+21/05/03 14:01:58 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 10.1 KiB, free 912.3 MiB)
+21/05/03 14:01:58 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 912.3 MiB)
+21/05/03 14:01:58 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:57131 (size: 5.0 KiB, free: 912.3 MiB)
+21/05/03 14:01:58 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1223
+21/05/03 14:01:58 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:135) (first 15 tasks are for partitions Vector(0))
+21/05/03 14:01:58 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+21/05/03 14:01:58 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7325 bytes)
+21/05/03 14:01:58 INFO Executor: Running task 0.0 in stage 1.0 (TID 0)
+21/05/03 14:01:58 INFO Executor: Fetching spark://localhost:57130/jars/sparklyr-3.0-2.12.jar with timestamp 1620064911401
+21/05/03 14:01:58 INFO TransportClientFactory: Successfully created connection to localhost/127.0.0.1:57130 after 14 ms (0 ms spent in bootstraps)
+21/05/03 14:01:58 INFO Utils: Fetching spark://localhost:57130/jars/sparklyr-3.0-2.12.jar to /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-bc0fe5eb-9b91-4c25-94e7-a58e12ff8a14/userFiles-8ef204cc-83a0-4da0-b0c4-2466afd9c067/fetchFileTemp6227212088418206766.tmp
+21/05/03 14:01:59 INFO Executor: Adding file:/private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-bc0fe5eb-9b91-4c25-94e7-a58e12ff8a14/userFiles-8ef204cc-83a0-4da0-b0c4-2466afd9c067/sparklyr-3.0-2.12.jar to class loader
+21/05/03 14:01:59 INFO ShuffleBlockFetcherIterator: Getting 0 (0.0 B) non-empty blocks including 0 (0.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+21/05/03 14:01:59 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+21/05/03 14:01:59 INFO Executor: Finished task 0.0 in stage 1.0 (TID 0). 2641 bytes result sent to driver
+21/05/03 14:01:59 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 0) in 271 ms on localhost (executor driver) (1/1)
+21/05/03 14:01:59 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+21/05/03 14:01:59 INFO DAGScheduler: ResultStage 1 (count at utils.scala:135) finished in 0.576 s
+21/05/03 14:01:59 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+21/05/03 14:01:59 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+21/05/03 14:01:59 INFO DAGScheduler: Job 0 finished: count at utils.scala:135, took 0.629308 s
+21/05/03 14:02:07 INFO BlockManagerInfo: Removed broadcast_0_piece0 on localhost:57131 in memory (size: 5.0 KiB, free: 912.3 MiB)
+21/05/03 14:39:28 INFO SparkContext: Invoking stop() from shutdown hook
+21/05/03 14:39:28 INFO SparkUI: Stopped Spark web UI at http://localhost:4040
+21/05/03 14:39:28 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/05/03 14:39:28 INFO MemoryStore: MemoryStore cleared
+21/05/03 14:39:28 INFO BlockManager: BlockManager stopped
+21/05/03 14:39:28 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/05/03 14:39:28 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/05/03 14:39:28 INFO SparkContext: Successfully stopped SparkContext
+21/05/03 14:39:28 INFO ShutdownHookManager: Shutdown hook called
+21/05/03 14:39:28 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-bc0fe5eb-9b91-4c25-94e7-a58e12ff8a14
+21/05/03 14:39:28 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-c68bbdc8-e6c0-4579-a1c9-7fee185e00db
+21/05/03 14:45:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/05/03 14:45:09 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/03 14:45:09 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/03 14:45:09 INFO SecurityManager: Changing view acls groups to: 
+21/05/03 14:45:09 INFO SecurityManager: Changing modify acls groups to: 
+21/05/03 14:45:09 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/03 14:45:10 INFO HiveConf: Found configuration file file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 14:45:10 INFO SparkContext: Running Spark version 3.0.1
+21/05/03 14:45:10 INFO ResourceUtils: ==============================================================
+21/05/03 14:45:10 INFO ResourceUtils: Resources for spark.driver:
+
+21/05/03 14:45:10 INFO ResourceUtils: ==============================================================
+21/05/03 14:45:10 INFO SparkContext: Submitted application: sparklyr
+21/05/03 14:45:10 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/03 14:45:10 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/03 14:45:10 INFO SecurityManager: Changing view acls groups to: 
+21/05/03 14:45:10 INFO SecurityManager: Changing modify acls groups to: 
+21/05/03 14:45:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/03 14:45:10 INFO Utils: Successfully started service 'sparkDriver' on port 58381.
+21/05/03 14:45:10 INFO SparkEnv: Registering MapOutputTracker
+21/05/03 14:45:10 INFO SparkEnv: Registering BlockManagerMaster
+21/05/03 14:45:10 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/05/03 14:45:10 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/05/03 14:45:10 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+21/05/03 14:45:10 INFO DiskBlockManager: Created local directory at /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/blockmgr-68718138-f67d-40d0-807e-ca5f2b4d77d4
+21/05/03 14:45:10 INFO MemoryStore: MemoryStore started with capacity 912.3 MiB
+21/05/03 14:45:10 INFO SparkEnv: Registering OutputCommitCoordinator
+21/05/03 14:45:10 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+21/05/03 14:45:11 INFO SparkUI: Bound SparkUI to 127.0.0.1, and started at http://localhost:4040
+21/05/03 14:45:11 INFO SparkContext: Added JAR file:/Library/Frameworks/R.framework/Versions/4.0/Resources/library/sparklyr/java/sparklyr-3.0-2.12.jar at spark://localhost:58381/jars/sparklyr-3.0-2.12.jar with timestamp 1620067511047
+21/05/03 14:45:11 INFO Executor: Starting executor ID driver on host localhost
+21/05/03 14:45:11 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 58382.
+21/05/03 14:45:11 INFO NettyBlockTransferService: Server created on localhost:58382
+21/05/03 14:45:11 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/05/03 14:45:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 58382, None)
+21/05/03 14:45:11 INFO BlockManagerMasterEndpoint: Registering block manager localhost:58382 with 912.3 MiB RAM, BlockManagerId(driver, localhost, 58382, None)
+21/05/03 14:45:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 58382, None)
+21/05/03 14:45:11 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, localhost, 58382, None)
+21/05/03 14:45:11 INFO SharedState: loading hive config file: file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 14:45:11 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse').
+21/05/03 14:45:11 INFO SharedState: Warehouse path is 'file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse'.
+21/05/03 14:45:14 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.7 using Spark classes.
+21/05/03 14:45:14 INFO HiveConf: Found configuration file file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/03 14:45:14 INFO SessionState: Created HDFS directory: /tmp/hive/katherinegoznikar/34f226db-5629-4ab5-9df9-3f1494a04e82
+21/05/03 14:45:14 INFO SessionState: Created local directory: /var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/katherinegoznikar/34f226db-5629-4ab5-9df9-3f1494a04e82
+21/05/03 14:45:14 INFO SessionState: Created HDFS directory: /tmp/hive/katherinegoznikar/34f226db-5629-4ab5-9df9-3f1494a04e82/_tmp_space.db
+21/05/03 14:45:14 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.7) is file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/spark-warehouse
+21/05/03 14:45:15 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+21/05/03 14:45:15 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+21/05/03 14:45:15 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+21/05/03 14:45:15 INFO ObjectStore: ObjectStore, initialize called
+21/05/03 14:45:15 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+21/05/03 14:45:15 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+21/05/03 14:45:16 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+21/05/03 14:45:17 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+21/05/03 14:45:17 INFO ObjectStore: Initialized ObjectStore
+21/05/03 14:45:17 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+21/05/03 14:45:17 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore katherinegoznikar@127.0.0.1
+21/05/03 14:45:17 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+21/05/03 14:45:17 INFO HiveMetaStore: Added admin role in metastore
+21/05/03 14:45:17 INFO HiveMetaStore: Added public role in metastore
+21/05/03 14:45:17 INFO HiveMetaStore: No user is added in admin role, since config is empty
+21/05/03 14:45:17 INFO HiveMetaStore: 0: get_all_functions
+21/05/03 14:45:17 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_all_functions	
+21/05/03 14:45:17 INFO HiveMetaStore: 0: get_database: default
+21/05/03 14:45:17 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 14:45:17 INFO HiveMetaStore: 0: get_database: global_temp
+21/05/03 14:45:17 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: global_temp	
+21/05/03 14:45:17 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+21/05/03 14:45:17 INFO HiveMetaStore: 0: get_database: default
+21/05/03 14:45:17 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 14:45:17 INFO HiveMetaStore: 0: get_database: default
+21/05/03 14:45:17 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_database: default	
+21/05/03 14:45:17 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+21/05/03 14:45:17 INFO audit: ugi=katherinegoznikar	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+21/05/03 14:45:18 INFO CodeGenerator: Code generated in 174.603683 ms
+21/05/03 14:45:18 INFO CodeGenerator: Code generated in 11.485796 ms
+21/05/03 14:45:18 INFO SparkContext: Starting job: count at utils.scala:135
+21/05/03 14:45:18 INFO DAGScheduler: Registering RDD 2 (count at utils.scala:135) as input to shuffle 0
+21/05/03 14:45:18 INFO DAGScheduler: Got job 0 (count at utils.scala:135) with 1 output partitions
+21/05/03 14:45:18 INFO DAGScheduler: Final stage: ResultStage 1 (count at utils.scala:135)
+21/05/03 14:45:18 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+21/05/03 14:45:18 INFO DAGScheduler: Missing parents: List()
+21/05/03 14:45:18 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:135), which has no missing parents
+21/05/03 14:45:18 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 10.1 KiB, free 912.3 MiB)
+21/05/03 14:45:18 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 912.3 MiB)
+21/05/03 14:45:18 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:58382 (size: 5.0 KiB, free: 912.3 MiB)
+21/05/03 14:45:18 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1223
+21/05/03 14:45:19 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at count at utils.scala:135) (first 15 tasks are for partitions Vector(0))
+21/05/03 14:45:19 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+21/05/03 14:45:19 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7325 bytes)
+21/05/03 14:45:19 INFO Executor: Running task 0.0 in stage 1.0 (TID 0)
+21/05/03 14:45:19 INFO Executor: Fetching spark://localhost:58381/jars/sparklyr-3.0-2.12.jar with timestamp 1620067511047
+21/05/03 14:45:19 INFO TransportClientFactory: Successfully created connection to localhost/127.0.0.1:58381 after 16 ms (0 ms spent in bootstraps)
+21/05/03 14:45:19 INFO Utils: Fetching spark://localhost:58381/jars/sparklyr-3.0-2.12.jar to /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-a1d2899f-14a1-45d7-a55e-b76291edc4ef/userFiles-ebb372dd-5a43-4280-bfbc-f8efacfaf209/fetchFileTemp2122953450113070018.tmp
+21/05/03 14:45:19 INFO Executor: Adding file:/private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-a1d2899f-14a1-45d7-a55e-b76291edc4ef/userFiles-ebb372dd-5a43-4280-bfbc-f8efacfaf209/sparklyr-3.0-2.12.jar to class loader
+21/05/03 14:45:19 INFO ShuffleBlockFetcherIterator: Getting 0 (0.0 B) non-empty blocks including 0 (0.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+21/05/03 14:45:19 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+21/05/03 14:45:19 INFO Executor: Finished task 0.0 in stage 1.0 (TID 0). 2684 bytes result sent to driver
+21/05/03 14:45:19 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 0) in 303 ms on localhost (executor driver) (1/1)
+21/05/03 14:45:19 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+21/05/03 14:45:19 INFO DAGScheduler: ResultStage 1 (count at utils.scala:135) finished in 0.617 s
+21/05/03 14:45:19 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+21/05/03 14:45:19 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+21/05/03 14:45:19 INFO DAGScheduler: Job 0 finished: count at utils.scala:135, took 0.654588 s

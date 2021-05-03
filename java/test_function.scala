@@ -1,4 +1,4 @@
-package SparkHello
+package sparklyrExtensionScala
 
 object HelloWorld{
   def hello() : String = {
