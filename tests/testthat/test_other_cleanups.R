@@ -35,7 +35,11 @@ testthat_spark_connection <- function() {
 
 sc <- testthat_spark_connection()
 
-# test the toy function
-spark_hello(sc)
+# test a rough version of the "real" function
+regex_other_cleanups(sc)
+
+data.frame(textColumn = "Katie + Goznikar") %>%
+  copy_to(sc, .) %>%
+  mutate(cleaned = otherCleanups(textColumn))
 
 spark_disconnect(sc)
