@@ -36,4 +36,5 @@ testthat_spark_connection <- function() {
 sc <- testthat_spark_connection()
 
 spark_hello(sc)
+regex_other_cleanups(sc)
 
