@@ -15,8 +15,6 @@ spec <- sparklyr::spark_compilation_spec(
   jar_name = sprintf("%s-3.0-2.12.jar", pkg), 
   jar_path = sparklyr:::find_jar(),
   spark_version = "3.0.1",
-  scalac_path = sparklyr::find_scalac("2.12")#,
-  # embedded_srcs = ""
-  )
+  scalac_path = sparklyr::find_scalac("2.12"))
 
 sparklyr::compile_package_jars(spec = spec)

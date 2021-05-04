@@ -18,3 +18,17 @@ sc <- spark_connect(master = "local", config = config, version = "3.0.1")
 
 sparklyrExtensionScala::spark_hello(sc)
 
+toy_local_frame <- as.data.frame(matrix(c("k citrate izzzz good.",
+                                          "mac + cheese 4 lunch",
+                                          "dog w/ toy",
+                                          "this is nice pretty text!")))
+colnames(toy_local_frame) <- c("text")
+sparklyr::sdf_copy_to(sc, 
+                      toy_local_frame, 
+                      name = "spark_toy_frame", 
+                      overwrite = T, 
+                      memory = T)
+
+
+
+

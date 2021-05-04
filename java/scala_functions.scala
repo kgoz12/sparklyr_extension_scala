@@ -1,6 +1,8 @@
 
 package sparklyrExtensionScala
 
+import org.apache.spark.sql.SparkSession;
+
 object HelloWorld{
   def hello() : String = {
     "Hello Jello"
@@ -8,12 +10,14 @@ object HelloWorld{
 }
 
 object regexOtherCleanups{
-  def otherCleanups() : String = {
-    "test 123"
-//  val updatedString = text
-//  .replaceAll("(?![A-z ]{1,})([+])(?=[A-z ]{1,})", " and ")
-//  .replaceAll("(^| )(?=)(w/)", " with ")
-//  .replaceAll(" +", " ")
-//  updatedString
+  def register_otherCleanups(spark:SparkSession) = {
+    spark.udf.register("otherCleanups", (textColumn: String) => {
+      val updatedTextColumn = textColumn
+      .replaceAll("(?![A-z ]{1,})([+])(?=[A-z ]{1,})", " and ")
+      .replaceAll("(^| )(?=)(w/)", " with ")
+      .replaceAll(" +", " ")
+      updatedTextColumn
+    })
   }
 }
+
