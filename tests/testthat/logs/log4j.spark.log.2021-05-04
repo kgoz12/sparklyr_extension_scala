@@ -1,0 +1,53 @@
+21/05/04 11:23:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/05/04 11:23:41 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/04 11:23:41 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/04 11:23:41 INFO SecurityManager: Changing view acls groups to: 
+21/05/04 11:23:41 INFO SecurityManager: Changing modify acls groups to: 
+21/05/04 11:23:41 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/04 11:23:41 INFO HiveConf: Found configuration file file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/04 11:23:42 INFO SparkContext: Running Spark version 3.0.1
+21/05/04 11:23:42 INFO ResourceUtils: ==============================================================
+21/05/04 11:23:42 INFO ResourceUtils: Resources for spark.driver:
+
+21/05/04 11:23:42 INFO ResourceUtils: ==============================================================
+21/05/04 11:23:42 INFO SparkContext: Submitted application: sparklyr
+21/05/04 11:23:42 INFO SecurityManager: Changing view acls to: katherinegoznikar
+21/05/04 11:23:42 INFO SecurityManager: Changing modify acls to: katherinegoznikar
+21/05/04 11:23:42 INFO SecurityManager: Changing view acls groups to: 
+21/05/04 11:23:42 INFO SecurityManager: Changing modify acls groups to: 
+21/05/04 11:23:42 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(katherinegoznikar); groups with view permissions: Set(); users  with modify permissions: Set(katherinegoznikar); groups with modify permissions: Set()
+21/05/04 11:23:42 INFO Utils: Successfully started service 'sparkDriver' on port 56474.
+21/05/04 11:23:42 INFO SparkEnv: Registering MapOutputTracker
+21/05/04 11:23:42 INFO SparkEnv: Registering BlockManagerMaster
+21/05/04 11:23:42 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/05/04 11:23:42 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/05/04 11:23:42 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+21/05/04 11:23:42 INFO DiskBlockManager: Created local directory at /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/blockmgr-9215b948-5b0e-441f-89e7-5bf58562e10c
+21/05/04 11:23:42 INFO MemoryStore: MemoryStore started with capacity 8.4 GiB
+21/05/04 11:23:42 INFO SparkEnv: Registering OutputCommitCoordinator
+21/05/04 11:23:42 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+21/05/04 11:23:42 INFO SparkUI: Bound SparkUI to 127.0.0.1, and started at http://localhost:4040
+21/05/04 11:23:42 INFO SparkContext: Added JAR file:///Users/katherinegoznikar/Projects/sparklyrExtensionScala/inst/java/sparklyrExtensionScala-3.0-2.12.jar at spark://localhost:56474/jars/sparklyrExtensionScala-3.0-2.12.jar with timestamp 1620141822696
+21/05/04 11:23:42 INFO SparkContext: Added JAR file:/Library/Frameworks/R.framework/Versions/4.0/Resources/library/sparklyr/java/sparklyr-3.0-2.12.jar at spark://localhost:56474/jars/sparklyr-3.0-2.12.jar with timestamp 1620141822696
+21/05/04 11:23:42 INFO Executor: Starting executor ID driver on host localhost
+21/05/04 11:23:42 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 56476.
+21/05/04 11:23:42 INFO NettyBlockTransferService: Server created on localhost:56476
+21/05/04 11:23:42 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/05/04 11:23:42 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 56476, None)
+21/05/04 11:23:42 INFO BlockManagerMasterEndpoint: Registering block manager localhost:56476 with 8.4 GiB RAM, BlockManagerId(driver, localhost, 56476, None)
+21/05/04 11:23:42 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 56476, None)
+21/05/04 11:23:42 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, localhost, 56476, None)
+21/05/04 11:23:43 INFO SharedState: loading hive config file: file:/Users/katherinegoznikar/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+21/05/04 11:23:43 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/tests/testthat/spark-warehouse').
+21/05/04 11:23:43 INFO SharedState: Warehouse path is 'file:/Users/katherinegoznikar/Projects/sparklyrExtensionScala/tests/testthat/spark-warehouse'.
+21/05/04 11:23:44 INFO SparkContext: Invoking stop() from shutdown hook
+21/05/04 11:23:44 INFO SparkUI: Stopped Spark web UI at http://localhost:4040
+21/05/04 11:23:44 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/05/04 11:23:44 INFO MemoryStore: MemoryStore cleared
+21/05/04 11:23:44 INFO BlockManager: BlockManager stopped
+21/05/04 11:23:44 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/05/04 11:23:44 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/05/04 11:23:44 INFO SparkContext: Successfully stopped SparkContext
+21/05/04 11:23:44 INFO ShutdownHookManager: Shutdown hook called
+21/05/04 11:23:44 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-8b9f639f-e92d-4b36-b868-03af81fc4e8d
+21/05/04 11:23:44 INFO ShutdownHookManager: Deleting directory /private/var/folders/cs/8wl45cxd3cs8vgnbpxbvw80r0000gn/T/spark-a5dcc83b-b4aa-474e-af40-44255602caa6

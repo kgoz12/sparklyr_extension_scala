@@ -5,7 +5,7 @@ import org.apache.spark.sql.SparkSession;
 
 object HelloWorld{
   def hello() : String = {
-    "Hello Jello"
+    "Hello World!"
   }
 }
 

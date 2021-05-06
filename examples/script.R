@@ -23,11 +23,18 @@ toy_local_frame <- as.data.frame(matrix(c("k citrate izzzz good.",
                                           "dog w/ toy",
                                           "this is nice pretty text!")))
 colnames(toy_local_frame) <- c("text")
-sparklyr::sdf_copy_to(sc, 
-                      toy_local_frame, 
-                      name = "spark_toy_frame", 
-                      overwrite = T, 
-                      memory = T)
+spark_toy_frame <- sparklyr::sdf_copy_to(sc, 
+                                         toy_local_frame, 
+                                         name = "spark_toy_frame", 
+                                         overwrite = T, 
+                                         memory = T)
+
+regex_other_cleanups(sc)
+
+try_this <- spark_toy_frame %>%
+  mutate(tryThis = otherCleanups(text))
+
+head(try_this)
 
 
 
